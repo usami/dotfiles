@@ -1,0 +1,12 @@
+[user]
+    name = usami
+    email = yusmi05@gmail.com
+[color]
+    ui = auto
+[alias]
+    s = status
+    ci = commit
+    co = checkout
+    br = branch
+    lol = log --decorate --pretty=oneline --abbrev-commit
+    g = grep --color
