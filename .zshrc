@@ -32,7 +32,7 @@ esac
 
 # Additional PATH
 #
-export TEX_BIN=/Library/TeX/Root/bin/x86_64-darwin 
+export TEX_BIN=/Library/TeX/Root/bin/x86_64-darwin
 export GRADLE_HOME=/opt/local/share/java/gradle
 export VIM_HOME=~/.vim
 export PYTHONSTARTUP=~/.pythonstartup
@@ -202,18 +202,8 @@ alias .G="git --work-tree=$HOME/ --git-dir=$HOME/dotfiles.git"
 ## terminal configuration
 #
 unset LSCOLORS
-case "${TERM}" in
-    xterm*|screen*)
-        case "${OSTYPE}" in
-            linux*|darwin*)
-                export TERM=linux
-                ;;
-            *)
-                export TERM=xterm-color
-                ;;
-        esac
-        ;;
-esac
+
+export TERM=xterm-256color-italic
 
 # set terminal title including current directory
 #
