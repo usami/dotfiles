@@ -36,8 +36,10 @@ export TEX_BIN=/Library/TeX/Root/bin/x86_64-darwin
 export GRADLE_HOME=/opt/local/share/java/gradle
 export VIM_HOME=~/.vim
 export PYTHONSTARTUP=~/.pythonstartup
+export NODE_PATH='/usr/local/lib/node'
 
 export PATH=$PATH:$VIM_HOME/bin:$TEX_BIN
+export PATH="/usr/local/share/npm/bin:$PATH"
 
 # CLASSPATH
 export CLOJURE_EXT=/opt/local/share/java/clojure
