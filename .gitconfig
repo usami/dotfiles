@@ -11,5 +11,6 @@
   lol = log --decorate --pretty=oneline --abbrev-commit
   g = grep --color
   rmu = !git status --untracked-files --short | cut -d ' ' -f 2 | xargs rm -f
+  po = push origin HEAD
 [github]
   user = usami
