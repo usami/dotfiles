@@ -13,7 +13,5 @@
   rmu = !git status --untracked-files --short | cut -d ' ' -f 2 | xargs rm -f
   po = push origin HEAD
   rp = reset --soft HEAD~1
-[merge]
-	ff = false
 [github]
   user = usami
